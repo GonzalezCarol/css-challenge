@@ -1,0 +1,91 @@
+// delete the following line if no text is used
+// edit the line if you wanna use other fonts
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+// use only the available space inside the 400x400 frame
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+  background: #e46261;
+  color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.circle-wrap {
+	filter: drop-shadow(6px 6px 6px rgba(50, 50, 0, 0.6));
+}
+
+.first-circle {
+  display: flex;
+	align-items: center;
+	justify-content: center;
+	animation: firstcircle 5s infinite;
+	width: 120px;
+	height: 120px;
+	background: #ffff;
+	clip-path: circle(50%);
+}
+
+.second-circle {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	animation: secondcircle 5s infinite;
+	width: 80px;
+	height: 80px;
+	background: #fff;
+	clip-path: circle(50%);
+	
+}
+
+.third-circle {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	animation: thirdcircle 5s infinite;
+	width: 30px;
+	height: 30px;
+	background: #ffff;
+	clip-path: circle(50%);
+}
+
+@keyframes firstcircle {
+	0% { clip-path: circle(0%); }
+	50% { clip-path: circle(50%); }
+	70% { clip-path: circle(50%); }
+	100% { clip-path: circle(0%); }
+}
+
+@keyframes secondcircle {
+	0% 	{ clip-path: circle(0%); }
+	10% 	{ clip-path: circle(0%); }
+	65% { clip-path: circle(50%); }
+	90% { clip-path: circle(0%);}
+	100% { clip-path: circle(0%);}
+}
+
+@keyframes thirdcircle {
+	0% 	{ clip-path: circle(0%); }
+	30% 	{ clip-path: circle(0%); }
+	40% 	{ clip-path: circle(50%); }
+	55% 	{ clip-path: circle(50%); }
+	85% { clip-path: circle(0%); }
+	100% { clip-path: circle(0%);}
+}
