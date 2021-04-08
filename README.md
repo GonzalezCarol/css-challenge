@@ -1,14 +1,15 @@
-# 100 Challenge CSS
+# 100 Challenge CSS - EM DESENVOLVIMENTO
 
-Desafio de criar 100 projetos com puro css 
+Desafio CSS: criar 100 projetos com puro css 
 
-Dia 1 : https://codepen.io/carol-alvarenga/pen/oNzVEbe <br>
-![Screen Shot 2021-04-08 at 01 21 31](https://user-images.githubusercontent.com/40405334/113968080-c1972300-9808-11eb-8640-a6db335fcbb8.png)
+Dia 1 : https://codepen.io/carol-alvarenga/pen/oNzVEbe <br>![Screen Shot 2021-04-08 at 01 24 17](https://user-images.githubusercontent.com/40405334/113968276-26527d80-9809-11eb-9ddc-83a9c5004572.png)
+
 
 Dia 2: https://codepen.io/carol-alvarenga/pen/yLarzGe <br>
-![Screen Shot 2021-04-08 at 01 22 17](https://user-images.githubusercontent.com/40405334/113968133-dd022e00-9808-11eb-9a09-20cd3d73d7bb.png)
+![Screen Shot 2021-04-08 at 01 23 41](https://user-images.githubusercontent.com/40405334/113968231-1044bd00-9809-11eb-9c61-a99fe74a5116.png)
 
 Dia 3: https://codepen.io/carol-alvarenga/pen/oNYbNaR <br>
-![Uploading Screen Shot 2021-04-08 at 01.22.44.png…]()
+![Screen Shot 2021-04-08 at 01 24 49](https://user-images.githubusercontent.com/40405334/113968301-379b8a00-9809-11eb-9c0e-a26a38895905.png)
+
 
 
