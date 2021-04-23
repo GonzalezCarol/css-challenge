@@ -4,131 +4,132 @@
 
 // use only the available space inside the 400x400 frame
 .frame {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  background: #272c34;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  color: #333;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  height: 400px;
+  left: 50%;
+  margin-left: -200px;
+  margin-top: -200px;
+  overflow: hidden;
   position: absolute;
   top: 50%;
-  left: 50%;
   width: 400px;
-  height: 400px;
-  margin-top: -200px;
-  margin-left: -200px;
-  border-radius: 2px;
-	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
-	overflow: hidden;
-  background: #272C34;
-  color: #333;
-	font-family: 'Open Sans', Helvetica, sans-serif;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
 }
 
-
 .main-circle {
-	animation: main-circle 5s infinite;
-	width: 400px;
-	height: 400px;
-	clip-path: circle(90px at center);
-	background-image: linear-gradient( #7ddefc 60%, #f0de76 30%);
+  animation: main-circle 5s infinite;
+  background-image: linear-gradient(#7ddefc 60%, #f0de76 30%);
+  clip-path: circle(90px at center);
+  height: 400px;
+  width: 400px;
 }
 
 .center {
+  left: 50%;
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(-70%,-51%);
-
+  transform: translate(-70%, -51%);
 }
 
- .main-circle .center .first-piramid {
-	animation: first-piramid 5s infinite;
-	border-left: 50px solid transparent;
-	border-right: 25px solid transparent;
-	height: 0;
-	width: 0; 
-  
+.main-circle .center .first-piramid {
+  animation: first-piramid 5s infinite;
+  border-left: 50px solid transparent;
+  border-right: 25px solid transparent;
+  height: 0;
+  width: 0;
 }
 
 .main-circle .center .second-piramid {
-		animation: second-piramid 5s infinite;
-	border-left: 25px solid transparent;
-	border-right: 10px solid transparent;
-	height: 0; 
-	transform: skewX(45deg);
-	width: 0;
+  animation: second-piramid 5s infinite;
+  border-left: 25px solid transparent;
+  border-right: 10px solid transparent;
+  height: 0;
+  transform: skewX(45deg);
+  width: 0;
 }
 
 .shadow {
-	animation: shadow 5s infinite;
-	// top: 10px;
-	// left: -200px;
-	width: 400px;
-	height: 400px;
-	background-color: #b8aa5b;
-	transform: translateX(-80px);
-	clip-path: polygon(30px 0, 140px 0, 160px 15px)
+  animation: shadow 5s infinite;
+  background-color: #b8aa5b;
+  clip-path: polygon(30px 0, 140px 0, 160px 15px);
+  height: 400px;
+  transform: translateX(-80px);
+  width: 400px;
 }
 
 .sun {
-	animation: sun 5s linear infinite;
-	background-color: #ffee01;
-	border-radius: 50%;
-	height: 35px;
-	position: relative;
-	width: 35px;
-	z-index: 3;
- 
+  animation: sun 5s linear infinite;
+  background-color: #ffee01;
+  border-radius: 50%;
+  height: 35px;
+  position: relative;
+  width: 35px;
+  z-index: 3;
 }
 
 @keyframes sun {
+  0% {
+    transform: rotate(-40deg) translateX(-70px) translateY(-40px);
+  }
 
-	0% {
-			transform: rotate(-40deg) translateX(-70px) translateY(-40px); 
-	}
-
-	100%   {  
-		transform:rotate(14deg) translateX(140px) translateY(-30px) ; 
-	}
-	
+  100% {
+    transform: rotate(14deg) translateX(140px) translateY(-30px);
+  }
 }
 
-
 @keyframes first-piramid {
-	
-	0% {
-		border-bottom: 50px solid #f3f3f3;
-	}
-	100% {
-		border-bottom: 50px solid #dddbdc;
-	}
-	
+  0% {
+    border-bottom: 50px solid #f3f3f3;
+  }
+  100% {
+    border-bottom: 50px solid #dddbdc;
+  }
 }
 
 @keyframes second-piramid {
-	//#dddbda
-	0% {
-		border-bottom: 50px solid #dddbdc;
-	}
-	50% {
-			border-bottom: 50px solid #dcdad9;
-		
-	}
-	100% {
-			border-bottom: 50px solid #f3f3f3;
-		
-	}
-	
+  //#dddbda
+  0% {
+    border-bottom: 50px solid #dddbdc;
+  }
+  50% {
+    border-bottom: 50px solid #dcdad9;
+  }
+  100% {
+    border-bottom: 50px solid #f3f3f3;
+  }
 }
 
 @keyframes main-circle {
-	0% { opacity: 0; }
-	20% { opacity: 1; }
-	80% { opacity: 1; }
-	100% { opacity: 0; }
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 @keyframes shadow {
-	0% { 	clip-path: polygon(30px 0, 140px 0, 200px 8px) }
-	20% {	clip-path: polygon(30px 0, 140px 0, 160px 15px) }
-	60% { 	clip-path: polygon(30px 0, 150px 0, 40px 35px) }
-	100% { clip-path: polygon(30px 0, 150px 0, -100px 13px)}
-		
+  0% {
+    clip-path: polygon(30px 0, 140px 0, 200px 8px);
+  }
+  20% {
+    clip-path: polygon(30px 0, 140px 0, 160px 15px);
+  }
+  60% {
+    clip-path: polygon(30px 0, 150px 0, 40px 35px);
+  }
+  100% {
+    clip-path: polygon(30px 0, 150px 0, -100px 13px);
+  }
 }

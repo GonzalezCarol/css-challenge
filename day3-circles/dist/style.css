@@ -1,26 +1,26 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
 .frame {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 400px;
-  height: 400px;
-  margin-top: -200px;
-  margin-left: -200px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  background: #e46261;
   border-radius: 2px;
   box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  background: #e46261;
   color: #333;
   font-family: "Open Sans", Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  height: 400px;
+  left: 50%;
+  margin-left: -200px;
+  margin-top: -200px;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  width: 400px;
 }
 
 .center {
+  left: 50%;
   position: absolute;
   top: 50%;
-  left: 50%;
   transform: translate(-50%, -50%);
 }
 
@@ -29,174 +29,174 @@
 }
 
 .first-circle {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   -webkit-animation: firstcircle 5s infinite;
-          animation: firstcircle 5s infinite;
-  width: 120px;
-  height: 120px;
-  background: #ffff;
   -webkit-clip-path: circle(50%);
-          clip-path: circle(50%);
+  align-items: center;
+  animation: firstcircle 5s infinite;
+  background: #ffff;
+  clip-path: circle(50%);
+  display: flex;
+  height: 120px;
+  justify-content: center;
+  width: 120px;
 }
 
 .second-circle {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   -webkit-animation: secondcircle 5s infinite;
-          animation: secondcircle 5s infinite;
-  width: 80px;
-  height: 80px;
-  background: #fff;
   -webkit-clip-path: circle(50%);
-          clip-path: circle(50%);
+  align-items: center;
+  animation: secondcircle 5s infinite;
+  background: #fff;
+  clip-path: circle(50%);
+  display: flex;
+  height: 80px;
+  justify-content: center;
+  width: 80px;
 }
 
 .third-circle {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   -webkit-animation: thirdcircle 5s infinite;
-          animation: thirdcircle 5s infinite;
-  width: 30px;
-  height: 30px;
-  background: #ffff;
   -webkit-clip-path: circle(50%);
-          clip-path: circle(50%);
+  align-items: center;
+  animation: thirdcircle 5s infinite;
+  background: #ffff;
+  clip-path: circle(50%);
+  display: flex;
+  height: 30px;
+  justify-content: center;
+  width: 30px;
 }
 
 @-webkit-keyframes firstcircle {
   0% {
     -webkit-clip-path: circle(0%);
-            clip-path: circle(0%);
+    clip-path: circle(0%);
   }
   50% {
     -webkit-clip-path: circle(50%);
-            clip-path: circle(50%);
+    clip-path: circle(50%);
   }
   70% {
     -webkit-clip-path: circle(50%);
-            clip-path: circle(50%);
+    clip-path: circle(50%);
   }
   100% {
     -webkit-clip-path: circle(0%);
-            clip-path: circle(0%);
+    clip-path: circle(0%);
   }
 }
 
 @keyframes firstcircle {
   0% {
     -webkit-clip-path: circle(0%);
-            clip-path: circle(0%);
+    clip-path: circle(0%);
   }
   50% {
     -webkit-clip-path: circle(50%);
-            clip-path: circle(50%);
+    clip-path: circle(50%);
   }
   70% {
     -webkit-clip-path: circle(50%);
-            clip-path: circle(50%);
+    clip-path: circle(50%);
   }
   100% {
     -webkit-clip-path: circle(0%);
-            clip-path: circle(0%);
+    clip-path: circle(0%);
   }
 }
 @-webkit-keyframes secondcircle {
   0% {
     -webkit-clip-path: circle(0%);
-            clip-path: circle(0%);
+    clip-path: circle(0%);
   }
   10% {
     -webkit-clip-path: circle(0%);
-            clip-path: circle(0%);
+    clip-path: circle(0%);
   }
   65% {
     -webkit-clip-path: circle(50%);
-            clip-path: circle(50%);
+    clip-path: circle(50%);
   }
   90% {
     -webkit-clip-path: circle(0%);
-            clip-path: circle(0%);
+    clip-path: circle(0%);
   }
   100% {
     -webkit-clip-path: circle(0%);
-            clip-path: circle(0%);
+    clip-path: circle(0%);
   }
 }
 @keyframes secondcircle {
   0% {
     -webkit-clip-path: circle(0%);
-            clip-path: circle(0%);
+    clip-path: circle(0%);
   }
   10% {
     -webkit-clip-path: circle(0%);
-            clip-path: circle(0%);
+    clip-path: circle(0%);
   }
   65% {
     -webkit-clip-path: circle(50%);
-            clip-path: circle(50%);
+    clip-path: circle(50%);
   }
   90% {
     -webkit-clip-path: circle(0%);
-            clip-path: circle(0%);
+    clip-path: circle(0%);
   }
   100% {
     -webkit-clip-path: circle(0%);
-            clip-path: circle(0%);
+    clip-path: circle(0%);
   }
 }
 @-webkit-keyframes thirdcircle {
   0% {
     -webkit-clip-path: circle(0%);
-            clip-path: circle(0%);
+    clip-path: circle(0%);
   }
   30% {
     -webkit-clip-path: circle(0%);
-            clip-path: circle(0%);
+    clip-path: circle(0%);
   }
   40% {
     -webkit-clip-path: circle(50%);
-            clip-path: circle(50%);
+    clip-path: circle(50%);
   }
   55% {
     -webkit-clip-path: circle(50%);
-            clip-path: circle(50%);
+    clip-path: circle(50%);
   }
   85% {
     -webkit-clip-path: circle(0%);
-            clip-path: circle(0%);
+    clip-path: circle(0%);
   }
   100% {
     -webkit-clip-path: circle(0%);
-            clip-path: circle(0%);
+    clip-path: circle(0%);
   }
 }
 @keyframes thirdcircle {
   0% {
     -webkit-clip-path: circle(0%);
-            clip-path: circle(0%);
+    clip-path: circle(0%);
   }
   30% {
     -webkit-clip-path: circle(0%);
-            clip-path: circle(0%);
+    clip-path: circle(0%);
   }
   40% {
     -webkit-clip-path: circle(50%);
-            clip-path: circle(50%);
+    clip-path: circle(50%);
   }
   55% {
     -webkit-clip-path: circle(50%);
-            clip-path: circle(50%);
+    clip-path: circle(50%);
   }
   85% {
     -webkit-clip-path: circle(0%);
-            clip-path: circle(0%);
+    clip-path: circle(0%);
   }
   100% {
     -webkit-clip-path: circle(0%);
-            clip-path: circle(0%);
+    clip-path: circle(0%);
   }
 }
