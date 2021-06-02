@@ -1,50 +1,49 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
 .frame {
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  background: #42a6a1;
-  border-radius: 5px;
-  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
-  color: #333;
-  font-family: "Open Sans", Helvetica, sans-serif;
-  height: 500px;
-  left: 50%;
-  margin-left: -270px;
-  margin-top: -270px;
-  overflow: hidden;
   position: absolute;
   top: 50%;
+  left: 50%;
   width: 600px;
+  height: 500px;
+  margin-top: -270px;
+  margin-left: -270px;
+  border-radius: 5px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: #42a6a1;
+  color: #333;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .center {
+  position: absolute;
+  height: 300px;
+  width: 400px;
   background: #fff;
+  margin-top: 250px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   border-radius: 1%;
   display: flex;
   flex-direction: column;
-  height: 300px;
-  left: 50%;
-  margin-top: 250px;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: 400px;
 }
 
 .first-div {
   background-color: #f0ba64;
-  border-radius: 3px 3px 0px 0px;
-  display: flex;
-  flex-direction: row;
   height: 90px;
   width: 400px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 3px 3px 0px 0px;
 }
-
 .weekly-div {
   display: flex;
   flex-direction: column;
 }
-
 .revenue-value {
   display: flex;
   flex-direction: column;
@@ -54,13 +53,11 @@
   color: #fff;
   font-weight: bold;
 }
-
 .bold-color.value {
   color: #fff;
-  font-size: 18px;
   font-weight: bold;
+  font-size: 18px;
 }
-
 .white-color {
   color: #fff;
 }
@@ -72,17 +69,17 @@
 
 .weekly-div {
   height: 90px;
-  padding: 20px 0px 0px 20px;
   width: 200px;
+  padding: 20px 0px 0px 20px;
 }
 
 .revenue-value {
-  align-self: center;
-  display: flex;
   height: 90px;
-  margin-left: 130px;
-  padding: 35px 0px 0px 20px;
   width: 150px;
+  padding: 35px 0px 0px 20px;
+  margin-left: 130px;
+  display: flex;
+  align-self: center;
 }
 
 .views-purchases {
@@ -97,14 +94,14 @@
 .chart-line1,
 .chart-line2,
 .chart-line3 {
-  align-items: center;
-  background: #ddd;
-  height: 1px;
-  margin-left: 13px;
   margin-top: 100px;
+  margin-left: 13px;
   position: relative;
+  aling-items: center;
   text-transform: uppercase;
   width: 93%;
+  height: 1px;
+  background: #ddd;
 }
 
 .chart-line2 {
@@ -116,9 +113,9 @@
 }
 
 .views-purchases {
-  align-items: center;
-  display: flex;
   height: 50px;
+  display: flex;
+  align-items: center;
   justify-content: flex-end;
 }
 
@@ -130,15 +127,32 @@
 }
 
 .red {
-  background-color: #ee7979;
   height: 4px;
-  margin: 12px 10px 10px 10px;
   width: 15px;
+  margin: 12px 10px 10px 10px;
+  background-color: #ee7979;
 }
 
 .blue {
-  background-color: #80a2f4;
   height: 4px;
-  margin: 12px 10px 10px 10px;
   width: 15px;
+  margin: 12px 10px 10px 10px;
+  background-color: #80a2f4;
+}
+
+.line-chart {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.data-point {
+  background-color: #ee7979;
+  border-radius: 50%;
+  bottom: calc(var(--y) - 8px);
+  height: 7px;
+  left: calc(var(--x) - 8px);
+  position: absolute;
+  width: 7px;
+  z-index: 1;
 }
