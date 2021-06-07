@@ -1,5 +1,4 @@
 
-
 # 100 Challenge CSS - EM DESENVOLVIMENTO
 
 Desafio CSS: criar 100 projetos com puro css 
@@ -16,7 +15,7 @@ Dia 3: https://codepen.io/carol-alvarenga/pen/oNYbNaR <br>
 
 Dia 4: https://codepen.io/carol-gonzalez/pen/qBRVNKe <br>
 ## Working in progress
-<img width="435" alt="Screen Shot 2021-05-25 at 23 11 00" src="https://user-images.githubusercontent.com/40405334/119592255-7c29b780-bdae-11eb-8749-23b15025222b.png">
+<img width="493" alt="Screen Shot 2021-06-05 at 12 06 13" src="https://user-images.githubusercontent.com/40405334/120896110-6f9b2f80-c5f6-11eb-8a9d-8692ddf748b7.png">
 
 -----------------------------------------------------------------------------------------------------------------------
 
