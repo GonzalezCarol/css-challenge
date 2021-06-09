@@ -146,8 +146,18 @@
   padding: 0;
 }
 
-.data-point {
+.data-point-red {
   background-color: #ee7979;
+  border-radius: 50%;
+  bottom: calc(var(--y));
+  height: 9px;
+  left: calc(var(--x));
+  position: absolute;
+  width: 9px;
+}
+
+.data-point-blue {
+  background-color: #7aa1ff;
   border-radius: 50%;
   bottom: calc(var(--y));
   height: 9px;
