@@ -1,5 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
-
 .frame {
   position: absolute;
   top: 50%;
@@ -97,7 +95,7 @@
   margin-top: 100px;
   margin-left: 13px;
   position: relative;
-  aling-items: center;
+  align-items: center;
   text-transform: uppercase;
   width: 93%;
   height: 1px;
@@ -164,4 +162,15 @@
   left: calc(var(--x));
   position: absolute;
   width: 9px;
+}
+
+.line-segment {
+  background-color: #ee7979;
+  bottom: var(--y);
+  height: 3px;
+  left: var(--x);
+  position: absolute;
+  transform: rotate(calc(var(--angle) * 1deg));
+  transform-origin: left bottom;
+  width: calc(var(--hypotenuse) * 1px);
 }
