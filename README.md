@@ -16,9 +16,8 @@ Dia 3: https://codepen.io/carol-alvarenga/pen/oNYbNaR <br>
 
 Dia 4: https://codepen.io/carol-gonzalez/pen/qBRVNKe <br>
 ## Working in progress 
-<img width="414" alt="Screen Shot 2021-06-22 at 21 47 34" src="https://user-images.githubusercontent.com/40405334/123017685-75896280-d3a3-11eb-9dca-158d04918e41.png">
 
+<img width="444" alt="Screen Shot 2021-06-27 at 22 36 45" src="https://user-images.githubusercontent.com/40405334/123567286-2a52c380-d798-11eb-9fb4-537ab4388612.png">
 -----------------------------------------------------------------------------------------------------------------------
-
 
 
