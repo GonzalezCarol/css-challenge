@@ -18,6 +18,7 @@ Dia 4: https://codepen.io/carol-gonzalez/pen/qBRVNKe <br>
 
 <img width="439" alt="Screen Shot 2021-07-02 at 00 01 29" src="https://user-images.githubusercontent.com/40405334/124214489-aadf3000-dac8-11eb-891f-fd74238b0ad4.png">
 
+Dia 6 EM DESENVOLVIMENTO: https://codepen.io/carol-gonzalez/pen/LYyZdqX
 
 -----------------------------------------------------------------------------------------------------------------------
 
