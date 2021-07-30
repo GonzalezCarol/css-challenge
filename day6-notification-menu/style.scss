@@ -55,10 +55,12 @@
 }
 
 .button-menu .circle-button-menu-icon {
-  width: 25px;
-  height: 5px;
+  width: 10px;
+  height: 10px;
   background: #b3daff;
   position: absolute;
+  border-radius: 50%;
+  align-self: end;
 }
 
 .button-menu .default-button-menu-icon {
