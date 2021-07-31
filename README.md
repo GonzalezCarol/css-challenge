@@ -22,7 +22,7 @@ Dia 6 EM DESENVOLVIMENTO: https://codepen.io/carol-gonzalez/pen/LYyZdqX <br>
 <img width="423" alt="Screen Shot 2021-07-11 at 21 53 31" src="https://user-images.githubusercontent.com/40405334/125215654-715db000-e292-11eb-87f0-69019c476dd0.png">
 
 Dia 7 EM DESENVOLVIMENTO: https://codepen.io/carol-gonzalez/pen/qBmXBbL <br>
-<img width="418" alt="Screen Shot 2021-07-27 at 22 47 26" src="https://user-images.githubusercontent.com/40405334/127250572-d32a14b4-bf02-467d-b662-e5f4834c9048.png">
+<img width="468" alt="Screen Shot 2021-07-30 at 21 36 56" src="https://user-images.githubusercontent.com/40405334/127723225-198fb38d-d7d0-485f-b22a-fe86bc0078d9.png">
 
 
 
