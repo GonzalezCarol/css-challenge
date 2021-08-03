@@ -37,21 +37,30 @@
   height: 60px;
   background: #5e98cc;
   border-radius: 2px 2px 0 0;
+  display: flex;
+
+  align-items: center;
 }
 
 .button-menu {
-  margin-left: 15px;
-  margin-top: 15px;
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   background: #fff;
+  margin-left: 15px;
 }
 
-.button-menu .default-button-menu-icon {
+.first-line {
+  display: flex;
+  flex-direction: row;
+}
+
+.button-menu .retangular-button-menu-icon {
   width: 25px;
   height: 5px;
   background: #b3daff;
   position: absolute;
+  border-radius: 1px;
+  margin-top: 5px;
 }
 
 .button-menu .circle-button-menu-icon {
@@ -60,11 +69,14 @@
   background: #b3daff;
   position: absolute;
   border-radius: 50%;
+  margin-left: 25px;
 }
 
 .button-menu .default-button-menu-icon {
   width: 35px;
-  height: 6spx;
+  height: 5px;
   background: #b3daff;
   position: absolute;
+  margin-top: 17px;
+  border-radius: 1px;
 }
