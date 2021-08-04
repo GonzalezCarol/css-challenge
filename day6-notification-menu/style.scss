@@ -45,7 +45,6 @@
 .button-menu {
   height: 30px;
   width: 30px;
-  background: #fff;
   margin-left: 15px;
 }
 
@@ -55,28 +54,29 @@
 }
 
 .button-menu .retangular-button-menu-icon {
-  width: 25px;
-  height: 5px;
+  width: 23px;
+  height: 3.5px;
   background: #b3daff;
   position: absolute;
-  border-radius: 1px;
+  border-radius: 1.5px;
   margin-top: 5px;
 }
 
 .button-menu .circle-button-menu-icon {
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
   background: #b3daff;
   position: absolute;
   border-radius: 50%;
   margin-left: 25px;
+  margin-top: 2px;
 }
 
 .button-menu .default-button-menu-icon {
-  width: 35px;
-  height: 5px;
+  width: 30px;
+  height: 3.5px;
   background: #b3daff;
   position: absolute;
   margin-top: 17px;
-  border-radius: 1px;
+  border-radius: 1.5px;
 }
