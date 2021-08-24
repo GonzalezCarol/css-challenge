@@ -23,7 +23,7 @@ Dia 6 EM DESENVOLVIMENTO: https://codepen.io/carol-gonzalez/pen/LYyZdqX <br>
 <img width="423" alt="Screen Shot 2021-07-11 at 21 53 31" src="https://user-images.githubusercontent.com/40405334/125215654-715db000-e292-11eb-87f0-69019c476dd0.png">
 
 Dia 7 Menu - EM DESENVOLVIMENTO: https://codepen.io/carol-gonzalez/pen/qBmXBbL <br>
-<img width="437" alt="Screen Shot 2021-08-16 at 22 40 08" src="https://user-images.githubusercontent.com/40405334/129650059-c6eb6f58-42b4-495c-9ef3-1021368d526a.png">
+<img width="415" alt="Screen Shot 2021-08-23 at 22 21 08" src="https://user-images.githubusercontent.com/40405334/130540297-1a292ec2-3475-4a28-9bf2-a335225ffdaa.png">
 
 
 
