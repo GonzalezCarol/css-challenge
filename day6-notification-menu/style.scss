@@ -36,9 +36,9 @@
   width: 300px;
   height: 60px;
   background: #5e98cc;
-  border-radius: s 2px 2px 0 0;
+  border-radius:s 2px 2px 0 0;
   display: flex;
-  z-index: 9999;
+	z-index: 9999;
   align-items: center;
 }
 
@@ -46,7 +46,7 @@
   height: 30px;
   width: 30px;
   margin-left: 15px;
-  cursor: pointer;
+	cursor: pointer;
 }
 
 .first-line-menu-button {
@@ -83,11 +83,11 @@
 }
 
 .hidden-menu {
-  height: 60px;
-  width: 120px;
-  display: absolute;
-  animation: fade-in 5s;
-  background-color: #ffff;
+	height: 60px;
+	width: 120px;
+	display: absolute;
+	animation: fade-in 5s;
+	background-color: #e5e;
 }
 
 @keyframes fade-in {
