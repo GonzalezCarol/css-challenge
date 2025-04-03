@@ -3,7 +3,7 @@
 
 #  Challenge CSS - EM DESENVOLVIMENTO
 
-Desafio CSS: criar 100 projetos com puro css 
+Desafio CSS: criar projetos com puro css 
 
  1 : https://codepen.io/carol-alvarenga/pen/oNzVEbe <br>
 ![Screen Shot 2021-04-08 at 01 23 41](https://user-images.githubusercontent.com/40405334/113968231-1044bd00-9809-11eb-9c61-a99fe74a5116.png)
